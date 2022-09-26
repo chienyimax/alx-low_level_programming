@@ -1,18 +1,16 @@
 #include "main.h"
+
 /**
- * main - program that prints _putchar.
- * Return: int
+ * main - prints stuff without the std library
+ * users _putchar.c include file
+ * Return: 0 - exit status zero if all ok
  */
 int main(void)
 {
-	int n = 0;
-	char str_hbt[9] = "Main";
+	int i;
+	char ch[] = "_putchar\n";
 
-	while (n < 9)
-	{
-		_putchar(str_hbt[n]);
-		n += 1;
-	}
-	_putchar('\n');
+	for (i = 0; i < 9; i++)
+		_putchar(ch[i]);
 	return (0);
 }
