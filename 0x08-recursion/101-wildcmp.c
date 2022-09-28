@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * wildcamp - compare strings
+ * _wildcamp - compare strings
  * @s1: pointer to strings params
  * @s2: pointer to strings params
+ *
  * Return: 0
  */
 
